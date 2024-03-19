@@ -1,0 +1,68 @@
+
+#  Object detection  (  Vehicle Number Plate Detection )-----------------------------------------
+
+# path: C:/Users/HP/Desktop/Python/Vehicle Number plate detection dataset
+# train: images/train
+# val: images/train
+# test: images/train
+
+# names:
+#   0: Number plate
+
+
+
+
+
+# Image Classification ( Cat and Dog Classification)------------------------
+
+# path: C:/Users/HP/Desktop/Python/Dog and Cat Image classifier
+# train: C:/Users/HP/Desktop/Python/Dog and Cat Image classifier/train
+# val: C:/Users/HP/Desktop/Python/Dog and Cat Image classifier/test
+# nc: 2
+
+
+
+
+
+
+#semantic Segmentation ( duck semantic segmentation)---------------------------------------
+
+# path: C:/Users/HP/Downloads/Semantic Segmentation duck
+# train: images/train
+# val: images/val
+# nc: 1
+# names: ['duck']
+
+
+
+
+
+#Quadruped keypoints detection ---------------------------------------------------------------
+
+# Data
+# path: C:/Users/HP/Desktop/Python/Quadruped keypoint detection dataset
+# train: images/train  # train images (relative to 'path')
+# val: images/val  # val images (relative to 'path')
+
+# # Keypoints
+# kpt_shape: [39, 3]  # [number of keypoints, number of dim]
+# flip_idx: [0, 1, 2, 4, 3, 10, 11, 12, 13, 14, 5, 6, 7, 8, 9, 15, 16, 17, 18, 19, 20, 21, 22, 23, 27, 28, 29, 24, 25,
+#            26, 33, 34, 35, 30, 31, 32, 36, 38, 37]
+
+# # Classes
+# names:
+#   0: quadruped
+
+
+
+
+
+# kitti data set
+
+path: D:/All Downloads/Kitti dataset
+train: images/train
+val: images/train
+test: images/train
+
+nc: 9
+names: ["Car","Pedestrian","Van","Cyclist","Truck","Misc","Tram","Person_sitting","DontCare"]
